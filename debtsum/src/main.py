@@ -7,7 +7,6 @@ import logging
 
 logging.basicConfig(format='%(message)s', level=logging.INFO)
 
-
 def main():
 
     args = parser.parse_args()
