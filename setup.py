@@ -3,21 +3,23 @@ from distutils.core import setup
 setup(
     name = 'debtsum',
     packages = ['debtsum'],
-    version = '0.2',
+    version = '0.5',
     license='MIT',
     description = 'A tool that allows to summarize medic mobile debt files',
     author = 'Elias W. BA',
     author_email = 'eliaswalyba@gmail.com',
     url = 'https://github.com/eliaswalyba/debtsum',
-    download_url = 'https://github.com/eliaswalyba/debtsum/archive/v_01.tar.gz',
+    download_url = 'https://github.com/eliaswalyba/debtsum/archive/v0.1-alpha.tar.gz',
     keywords = ['DEBT', 'SUMMARIZE', 'PYTHON'],
     install_requires=[
         'pandas'
     ],
-    entry_points='''
-        [console_scripts]
-        debtsum=debtsum.src.main:main
-    ''',
+    include_package_data=True,
+    entry_points={
+        'console_scripts': [
+            "debtsum=debtsum.main:main"
+        ]
+    },
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',

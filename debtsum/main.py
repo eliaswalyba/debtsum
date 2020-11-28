@@ -21,3 +21,7 @@ def main():
         logging.info(f"Summarizations completed successfuly. Results saved in {args.output} :)")
     else:
         logging.info(result.to_string())
+
+
+if __name__ == '__main__':
+    main()

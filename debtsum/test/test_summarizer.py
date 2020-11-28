@@ -1,7 +1,6 @@
 import unittest
 import pandas as pd
-from src.summarizer import Summarizer
-
+from debtsum.summarizer import Summarizer
 
 class TestSummarizer(unittest.TestCase):
 
