@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = 'debtsum',
     packages = ['debtsum'],
-    version = '0.5',
+    version = '1.0.0',
     license='MIT',
     description = 'A tool that allows to summarize medic mobile debt files',
     author = 'Elias W. BA',
@@ -21,7 +21,7 @@ setup(
         ]
     },
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: MIT License',
