@@ -28,10 +28,17 @@ Carl,Beatrice,25.30
 
 ## Installation
 To install this tool, you must have a version of [Python 3](https://docs.python.org/3/) installed with the associated package manager [pip](https://pip.pypa.io/en/stable/).
- Use pip to install **debtsum**.
+
+
+If you're on Ubuntu like systems you can install the tools with the following command:
+```bash
+$ sudo apt install python3 python3-pip
+```
+
+Use pip to install **debtsum**.
 
 ```bash
-pip install debtsum
+$ pip install debtsum
 ```
 
 ## Usage

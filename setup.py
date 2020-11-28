@@ -9,7 +9,7 @@ setup(
     author = 'Elias W. BA',
     author_email = 'eliaswalyba@gmail.com',
     url = 'https://github.com/eliaswalyba/debtsum',
-    download_url = 'https://github.com/eliaswalyba/debtsum/archive/v0.1-alpha.tar.gz',
+    download_url = 'https://github.com/eliaswalyba/debtsum/archive/v1.0.0.tar.gz',
     keywords = ['DEBT', 'SUMMARIZE', 'PYTHON'],
     install_requires=[
         'pandas'
